@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+      integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Хрестики-Нолики</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start-field">
+        <h1 class="start-tiltle">ХРЕСТИКИ-НОЛИКИ</h1>
+        <button class="start-game-btn" id="chooseButton">Почати гру</button>
+      </div>
+      <div class="select-xo" id="popup">
+        <h2>Гравець 1</h2>
+        <p>Виберіть варіант:</p>
+        <div class="buttons">
+          <button id="optionX" class="button-x">X</button>
+          <button id="optionO" class="button-o">O</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

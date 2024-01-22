@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>results</title>
+    <link rel="stylesheet" href="./../styles/results.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="info">
+          <h2 class="info__title">
+            Цього разу успіх посміхнувся Гравцю
+            <span class="info__winnerr"></span>
+          </h2>
+        </div>
+
+        <div class="results">
+          <table class="results-table">
+            <th colspan="2">Результати гри</th>
+            <tr>
+              <th>Гравець 1</th>
+              <th>Гравець 2</th>
+            </tr>
+            <tr>
+              <td id="player1-score">0</td>
+              <td id="player2-score">0</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="buttons">
+          <button id="optionX" class="button-x button-stop">
+            Завершити гру
+          </button>
+          <button id="optionO" class="button-o button-more">
+            Грати ще раз
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./../js/results.js"></script>
+  </body>
+</html>
